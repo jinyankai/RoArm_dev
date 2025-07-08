@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>object_detection_3d</name>
+  <version>0.1.0</version>
+  <description>YOLO v11-S + depth point-cloud localisation.</description>
+  <maintainer email="your@email">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- runtime -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>message_filters</exec_depend>
+
+  <!-- messages -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_export_depend>rosidl_default_generators</build_export_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+</package>
